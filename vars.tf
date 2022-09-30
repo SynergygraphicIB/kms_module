@@ -3,7 +3,7 @@
 #
 variable "master_id" {
   description = "The 12-digit account ID used for role assumption"
-  default     = "489641906295"
+  default     = "<your-account-id>"
 }
 
 variable "region" {
