@@ -8,7 +8,7 @@ data "aws_iam_policy_document" "synergy_key_policy" {
 
     principals {
       type        = "AWS"
-      identifiers = ["arn:aws:iam::${var.master_id}:role/MemberAdminRole"] // lets focus in kms only for now comment this line
+      identifiers = ["arn:aws:iam::${var.master_id}:role/MemberAdminRole"] 
     }
   }
 
